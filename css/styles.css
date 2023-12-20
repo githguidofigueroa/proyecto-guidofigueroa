@@ -6,7 +6,7 @@
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 520px) {
     .caja-cerveza {
         font-size: 10px;
     }
