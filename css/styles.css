@@ -1,0 +1,290 @@
+/* Reseteo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .caja-cerveza {
+        font-size: 10px;
+    }
+
+    .caja-cerveza_contenedor {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .texto-final-footer h6 {
+        font-size: 9px;
+    }
+
+    .lista-footer {
+        flex-direction: column;
+    }
+
+    .section-inicio article {
+        border: 10px solid white;
+        background-color: 10px solid white;
+    }
+
+    .lista-footer {
+        font-size: 14px;
+    }
+
+    .caja-cerveza_parrafo {
+        width: 100%;
+    }
+}
+
+
+
+/* Tipografía para la página web (excepto banner logo) */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.container-titulos {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/fondo-web.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    align-items: center;
+}
+
+.titulo-header {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 4rem;
+}
+
+.subtitulo-header {
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 2vw;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Barra de navegación */
+.nav-link {
+    color: goldenrod;
+}
+
+.navbar {
+    color: black;
+    background-color: black;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: goldenrod;
+}
+
+.caja-barra {
+    border: 1px solid white;
+    width: 25%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-barra a {
+    text-decoration: none;
+    color: #eeba0b;
+}
+
+.imagen-fabrica {
+    margin: auto;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav {
+    text-align: center;
+}
+
+label {
+    margin-bottom: 15px;
+    display: block
+}
+
+/* SECTION INICIO */
+
+.section-inicio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.section-inicio article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.input-container {
+    margin: 10px;
+    padding: 10px;
+}
+
+.titulo-intro {
+    padding: 3%;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.titulos-cervezas {
+    font-size: 1rem;
+}
+
+.parrafo-cervezas {
+    margin: 20px;
+    padding: 20px;
+}
+
+main section article h3 {
+    margin-top: 10px;
+    color: black;
+}
+
+main section article h3 {
+    text-align: center;
+}
+
+/* Footer */
+.lista-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0, 5%;
+    padding: 1%;
+}
+
+footer {
+    list-style: none;
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer div ul li {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+.footer-index {
+    margin-bottom: 3%;
+}
+
+.footer-index a {
+    text-decoration: none;
+    color: goldenrod
+}
+
+/* Imagen divisoria nav bar y titulo */
+.imagen-maltaylupulo img {
+    width: 100%;
+}
+
+/* Título y subtítulo | Seccion Nosotros */
+.titulo-nosotros {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.subtitulo-laempresa {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1, 5rem;
+}
+
+.descripcion-empresa {
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.caja-imagen-laempresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.caja-cerveza {
+    display: flex;
+    flex-direction: column;
+}
+
+.caja-cerveza_contenedor {
+    display: flex;
+    padding: 3px;
+    margin: 10px;
+    gap: 30px;
+}
+
+.caja-cerveza_imagen,
+.caja-cerveza_parrafo {
+    width: 45%;
+}
+
+.caja-cerveza_imagen img {
+    width: 100%;
+}
+
+.texto-final-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-final-footer h6 {
+    padding: 5px
+}
+
+
+/* Page Contacto */
+
+/* Mapa */
+.mapa-google {
+    display: flex;
+    justify-content: center;
+}
+
+/* Tìtulo y Subtìtulo*/
+.titulo-contacto {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.subtitulo-contacto {
+    text-align: center;
+    margin-top: 15px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!doctype html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Cerveza Sureña</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Nombre de la empresa y rubro al que se dedica -->
+        <div class="container-titulos">
+            <h1 class="titulo-header">SUREÑA</h1>
+            <h2 class="subtitulo-header">FÁBRICA DE CERVEZA ARTESANAL</h2>
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- RESPONSIVE-MENU HAMBURGUESA -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex justify-content-around w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/nuestrosproductos.html">Nuestros
+                                Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/nuestrosservicios.html">Nuestros Servicios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Imagen divisoria -->
+
+        <div class="imagen-maltaylupulo">
+            <img src="../img/cerveza-barra.jpg" alt="cerveza-barra">
+        </div>
+
+        <div>
+            <h3 class="titulo-contacto">CONTACTO</h3>
+            <h4 class="subtitulo-contacto">Dejanos tus datos y solicitud o consulta. Nos comunicaremos a la brevedad.
+            </h4>
+        </div>
+        <section>
+            <form action="">
+                <div class="input-container">
+                    <label for="nombre-usuario">Ingrese su nombre y apellido:</label>
+                    <input type="text" id="nombre-usuario" placeholder="Carlos Rodriguez">
+                </div>
+                <div class="input-container">
+                    <label for="correo-usuario">Ingrese su casilla de correo:</label>
+                    <input type="email" id="correo-usuario" placeholder="carlosrodriguez@gmail.com">
+                </div>
+                <div class="input-container">
+                    <label for="telefono-usuario">Ingrese su teléfono:</label>
+                    <input type="tel" id="telefono-usuario" placeholder="1130345678">
+                </div>
+                <div class="input-container">
+                    <label for="mensaje-usuario">Escriba su mensaje</label>
+                    <textarea name="" id="mensaje-usuario" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input-container">
+                    <label for="archivo">Subí tu archivo PDF</label>
+                    <input type="submit" id="archivo" value="Seleccionar archivo">
+                </div>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </section>
+        <div class="mapa-google">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.905781659138!2d-58.38339874573058!3d-34.60496986766193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1701040258429!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h4>Teléfono: 1234567890</h4>
+        <h4>Correo Electrónico: info@sureña.com.ar</h4>
+    </main>
+    <footer>
+        <div class="footer-index">
+            <ul class="lista-footer">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./nuestrosproductos.html">Nuestros Productos</a></li>
+                <li><a href="./nuestrosservicios.html">Nuestros Servicios</a></li>
+            </ul>
+        </div>
+        <div class="texto-final-footer">
+            <h6>Del barrio para el mundo, con amor, pasión y dedicación.</h6>
+            <h6>Cerveza del Sur, Cerveza Sureña.</h6>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
