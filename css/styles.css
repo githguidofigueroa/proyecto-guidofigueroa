@@ -10,7 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Mobile Styles (min-width:320px) and  */
+/* Mobile Styles */
 @media only screen and (max-width: 520px) {
 
     .caja-cerveza {
@@ -224,14 +224,14 @@ body {
     }
 
     .descripcion-empresa {
+        font-size: 10px;
         margin-top: 30px;
         text-align: center;
-        padding-left: 135px;
-        padding-right: 135px;
+        padding-left: 20px;
+        padding-right: 20px;    
     }
 
     .caja-imagen-laempresa {
-        width: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -244,11 +244,9 @@ body {
     }
 
     .caja-imagen-trayectoria {
-        width: 450px;
         display: flex;
-        justify-content: center;
+        justify-content:center ;
         align-items: center;
-        ;
     }
 
     .imagen-trayectoria {
@@ -308,8 +306,316 @@ body {
         margin-top: 15px;
     }
 
-    
+
 }
+
+/* Tablet (A MODIFICAR) */
+@media only screen and (min-width:521px) and (max-width:1023px){
+
+    /* Header */
+    .container-titulos {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/fondo-web.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .titulo-header {
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 4rem;
+    }
+
+    .subtitulo-header {
+        font-family: 'Permanent Marker', cursive;
+        margin-top: 2vw;
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Barra de navegación */
+    .nav-link {
+        color: goldenrod;
+    }
+
+    .navbar {
+        color: black;
+        background-color: black;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    .navbar-toggler-icon {
+        background-color: goldenrod;
+    }
+
+    .caja-barra {
+        border: 1px solid white;
+        width: 25%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caja-barra a {
+        text-decoration: none;
+        color: #eeba0b;
+    }
+
+    .imagen-fabrica {
+        margin: auto;
+        height: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    label {
+        margin-bottom: 15px;
+        display: block
+    }
+
+    /* SECTION INICIO */
+
+    .section-inicio {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .section-inicio article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .input-container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .titulo-intro {
+        padding-top: 3%;
+        padding-bottom: 8%;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+    }
+
+    .titulos-cervezas {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .parrafo-cervezas {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    /* Footer */
+    .lista-footer {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0, 5%;
+        padding: 1%;
+    }
+
+    footer {
+        list-style: none;
+        background-color: black;
+        color: white;
+        margin-top: 60px;
+        padding: 15px;
+    }
+
+    footer ul {
+        text-align: center;
+    }
+
+    footer div ul li {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    .footer-index {
+        margin-bottom: 3%;
+    }
+
+    .footer-index a {
+        text-decoration: none;
+        color: goldenrod
+    }
+
+    /* Imagen divisoria nav bar y titulo */
+    .imagen-maltaylupulo img {
+        width: 100%;
+    }
+
+    /* Título y subtítulo | Seccion Nosotros */
+    .titulo-nosotros {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 2rem;
+    }
+
+    .subtitulo-laempresa {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 1, 5rem;
+    }
+
+    .descripcion-empresa {
+        margin-top: 30px;
+        text-align: center;
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+
+    .caja-imagen-laempresa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .caja-imagen-trayectoria {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja-cerveza {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        margin: 10px;
+        gap: 30px;
+    }
+
+    .caja-cerveza_contenedor {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .caja-cerveza_imagen,
+    .caja-cerveza_parrafo {
+        width: 45%;
+    }
+
+    .caja-cerveza_parrafo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja-cerveza_imagen img {
+        width: 50%;
+    }
+
+    .texto-final-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: cener;
+    }
+
+    .texto-final-footer h6 {
+        padding: 5px;
+
+    }
+
+
+    /* Page Contacto */
+
+    /* Mapa */
+    .mapa-google {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Tìtulo y Subtìtulo*/
+    .titulo-contacto {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2rem;
+    }
+
+    .subtitulo-contacto {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* Seccion Nuestros Servicios */
+    .contenedor_titulo-servicios {
+        display: flex;
+        justify-content: row;
+    }
+
+    /* Seccion Nuestros Productos (A MODIFICAR) */
+
+    /* Nuestros Productos */
+    /* 
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+} */
+
+    /* Artículos */
+    /* main section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+main article {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+main article h4 {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+main article p {
+    margin-bottom: 15px;
+} */
+
+    /* Imagenes */
+    /* main article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+} */
+
+
+}
+
+
 
 /* Desktop */
 @media only screen and (min-width:1024px) {
@@ -515,7 +821,7 @@ body {
     }
 
     .caja-cerveza_contenedor {
-        display:flex;
+        display: flex;
         justify-content: center;
         flex-direction: row;
     }
@@ -575,18 +881,18 @@ body {
         justify-content: row;
     }
 
-/* Seccion Nuestros Productos (A MODIFICAR) */
+    /* Seccion Nuestros Productos (A MODIFICAR) */
 
-/* Nuestros Productos */
-/* 
+    /* Nuestros Productos */
+    /* 
 h3 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
 } */
 
-/* Artículos */
-/* main section {
+    /* Artículos */
+    /* main section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -607,8 +913,8 @@ main article p {
     margin-bottom: 15px;
 } */
 
-/* Imagenes */
-/* main article img {
+    /* Imagenes */
+    /* main article img {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
