@@ -1,0 +1,105 @@
+@media only screen and (min-width:1024px) {
+    .titulo-nuestros-productos {
+        text-align: center;
+    }
+
+    .subtitulo-nuestras-cervezas {
+        text-align: center;
+    }
+
+    .introduccion-productos {
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .introduccion-productos img {
+        width: 100%;
+        height: auto;
+    }
+
+    .articulo-productos-cervezas {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        gap: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .contenedor_productos-cervezas {
+        margin-bottom: 10px;
+        background-color: #f8f8f8;
+        padding: 10px;
+    }
+
+    .titulo-american-ipa,
+    .titulo-apa,
+    .titulo-stout,
+    .titulo-golden,
+    .titulo-honey,
+    .titulo-redlager,
+    .titulo-neipa {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .articulo-productos-cervezas p {
+        margin: 10px 0;
+    }
+
+    .titulo-nuestros-productos {
+        text-align: center;
+    }
+
+    .subtitulo-nuestras-cervezas {
+        text-align: center;
+    }
+
+    .introduccion-productos {
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .introduccion-productos img {
+        width: 100%;
+        height: auto;
+    }
+
+    .articulo-productos-cervezas {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        gap: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .contenedor_productos-cervezas {
+        margin-bottom: 10px;
+        background-color: #f8f8f8;
+        padding: 10px;
+    }
+
+    .titulo-american-ipa,
+    .titulo-apa,
+    .titulo-stout,
+    .titulo-golden,
+    .titulo-honey,
+    .titulo-redlager,
+    .titulo-neipa {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .articulo-productos-cervezas p {
+        margin: 10px 0;
+    }
+}

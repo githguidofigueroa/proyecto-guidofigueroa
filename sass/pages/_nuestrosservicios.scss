@@ -1,0 +1,125 @@
+@media only screen and (min-width:1024px) {
+    .imagen-maltaylupulo {
+        text-align: center;
+    }
+
+    .contenedor_titulo-servicios {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .contenedor-introduccion {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .introduccion-servicios img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenedor-tarjetas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .tarjeta-servicio {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.3s;
+    }
+
+    .tarjeta-servicio:hover {
+        transform: scale(1.05);
+    }
+
+    .contenedor-titulo-tarjeta {
+        background-color: #f8f8f8;
+        padding: 10px;
+    }
+
+    .titulo-servicios {
+        text-align: center;
+    }
+
+    .titulo-servicios,
+    .titulo-tarjeta {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .parrafo-introduccion,
+    .parrafo-tarjeta {
+        margin: 10px;
+    }
+}
+
+.imagen-maltaylupulo {
+    text-align: center;
+}
+
+.contenedor_titulo-servicios {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contenedor-introduccion {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.introduccion-servicios img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tarjeta-servicio {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.tarjeta-servicio:hover {
+    transform: scale(1.05);
+}
+
+.contenedor-titulo-tarjeta {
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.titulo-servicios {
+    text-align: center;
+}
+
+.titulo-servicios,
+.titulo-tarjeta {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.parrafo-introduccion,
+.parrafo-tarjeta {
+    margin: 10px;
+}

@@ -1,0 +1,37 @@
+/* Reseteo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografía para la página web (excepto banner logo) */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+    /* Imagen divisoria nav bar y titulo */
+@media only screen and (max-width: 520px) {
+
+    .imagen-maltaylupulo {
+        width: 100%;
+    }
+
+    .imagen-maltaylupulo img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:521px) and (max-width:1023px) {
+
+    .imagen-maltaylupulo img {
+        width: 100%
+    }
+
+    @media only screen and (min-width:1024px) {
+
+        .imagen-maltaylupulo img {
+            width: 100%
+        }
+    }
+}

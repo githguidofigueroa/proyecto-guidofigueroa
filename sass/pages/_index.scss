@@ -1,0 +1,122 @@
+@media only screen and (max-width: 520px) {
+    .section-inicio {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .section-inicio article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .input-container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .titulo-intro {
+        padding: 3%;
+        font-size: 22px;
+        text-align: center;
+        color: black;
+    }
+
+    .titulos-cervezas {
+        font-size: 1rem;
+    }
+
+    .parrafo-cervezas {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .section-inicio article {
+        border: 10px solid white;
+        background-color: 10px solid white;
+    }
+}
+
+@media only screen and (min-width:521px) and (max-width:1023px) {
+    .section-inicio {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .section-inicio article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .input-container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .titulo-intro {
+        padding-top: 3%;
+        padding-bottom: 8%;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+    }
+
+    .titulos-cervezas {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .parrafo-cervezas {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .section-inicio {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .section-inicio article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .input-container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .titulo-intro {
+        padding-top: 3%;
+        padding-bottom: 8%;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+    }
+
+    .titulos-cervezas {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .parrafo-cervezas {
+        margin: 20px;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,80 @@
+@media only screen and (max-width: 520px) {
+    .container-titulos {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/fondo-web.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .titulo-header {
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 4rem;
+    }
+
+    .subtitulo-header {
+        font-family: 'Permanent Marker', cursive;
+        margin-top: 2vw;
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:521px) and (max-width:1023px) {
+    .container-titulos {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/fondo-web.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .titulo-header {
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 4rem;
+    }
+
+    .subtitulo-header {
+        font-family: 'Permanent Marker', cursive;
+        margin-top: 2vw;
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .container-titulos {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/fondo-web.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .titulo-header {
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 4rem;
+    }
+
+    .subtitulo-header {
+        font-family: 'Permanent Marker', cursive;
+        margin-top: 2vw;
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+}

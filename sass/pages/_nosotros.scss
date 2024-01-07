@@ -1,0 +1,118 @@
+@media only screen and (max-width: 520px) {
+    .titulo-nosotros {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2rem;
+    }
+
+    .subtitulo-laempresa {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1, 5rem;
+    }
+
+    .descripcion-empresa {
+        font-size: 10px;
+        margin-top: 30px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .caja-imagen-laempresa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .imagen-laempresa {
+        width: 100%;
+
+    }
+
+    .caja-imagen-trayectoria {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen-trayectoria {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:521px) and (max-width:1023px) {
+    .titulo-nosotros {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 2rem;
+    }
+
+    .subtitulo-laempresa {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 1, 5rem;
+    }
+
+    .descripcion-empresa {
+        margin-top: 30px;
+        text-align: center;
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+
+    .caja-imagen-laempresa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .caja-imagen-trayectoria {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .titulo-nosotros {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 2rem;
+    }
+
+    .subtitulo-laempresa {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 1, 5rem;
+    }
+
+    .descripcion-empresa {
+        margin-top: 30px;
+        text-align: center;
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+
+    .caja-imagen-laempresa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .caja-imagen-trayectoria {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
