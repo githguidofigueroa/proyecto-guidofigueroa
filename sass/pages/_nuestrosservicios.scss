@@ -1,6 +1,6 @@
 @media only screen and (min-width:1024px) {
-    .imagen-maltaylupulo {
-        text-align: center;
+    .contenedor-img-vasos {
+        width: 100%;
     }
 
     .contenedor_titulo-servicios {
@@ -20,6 +20,11 @@
         width: 100%;
         height: auto;
     }
+
+    .lista-footer li {
+        list-style: none;
+    }
+
 
     .contenedor-tarjetas {
         display: grid;
@@ -62,7 +67,7 @@
     }
 }
 
-.imagen-maltaylupulo {
+.contenedor-img-vasos {
     text-align: center;
 }
 

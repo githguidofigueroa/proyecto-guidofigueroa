@@ -10,28 +10,31 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-    /* Imagen divisoria nav bar y titulo */
+/* Imagen divisoria nav bar y titulo */
 @media only screen and (max-width: 520px) {
 
-    .imagen-maltaylupulo {
+    .contenedor-img-vasos {
         width: 100%;
     }
 
-    .imagen-maltaylupulo img {
+    .contenedor-img-vasos img {
         width: 100%;
+        object-fit: cover;
     }
 }
 
 @media only screen and (min-width:521px) and (max-width:1023px) {
 
-    .imagen-maltaylupulo img {
-        width: 100%
+    .contenedor-img-vasos img {
+        width: 100%;
+        object-fit: cover;
     }
 
     @media only screen and (min-width:1024px) {
 
-        .imagen-maltaylupulo img {
-            width: 100%
+        .contenedor-img-vasos img {
+            width: 100%;
+            object-fit: fill;
         }
     }
 }
