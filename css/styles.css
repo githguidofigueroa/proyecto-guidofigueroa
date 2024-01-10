@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: red;
 }
 
 /* Tipografía para la página web (excepto banner logo) */
@@ -372,23 +373,6 @@ label {
   .input-container {
     margin: 10px;
     padding: 10px;
-  }
-  .titulo-intro {
-    padding: 3%;
-    font-size: 22px;
-    text-align: center;
-    color: black;
-  }
-  .titulos-cervezas {
-    font-size: 1rem;
-  }
-  .parrafo-cervezas {
-    margin: 20px;
-    padding: 20px;
-  }
-  .section-inicio article {
-    border: 10px solid white;
-    background-color: 10px solid white;
   }
 }
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
@@ -922,11 +906,11 @@ label {
   }
 }
 @media only screen and (min-width: 1024px) {
-  main {
+  .contenedor-formulario-mapa {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
+    justify-content: space-evenly;
   }
   .imagen-maltaylupulo img {
     max-width: 100%;
@@ -982,8 +966,8 @@ label {
   }
   /* Mapa */
   .mapa-google {
-    display: flex;
-    justify-content: center;
+    width: 700px;
+    height: 700px;
   }
   /* Tìtulo y Subtìtulo*/
   .titulo-contacto {
@@ -994,6 +978,16 @@ label {
   .subtitulo-contacto {
     text-align: center;
     margin-top: 15px;
+  }
+  .mapa-contacto {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+  }
+  .contacto-telefono h4 {
+    text-align: center;
   }
 }
 
