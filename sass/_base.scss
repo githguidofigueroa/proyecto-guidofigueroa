@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: red;
 }
 
 /* Tipografía para la página web (excepto banner logo) */
@@ -20,7 +19,7 @@ body {
 
     .contenedor-img-vasos img {
         width: 100%;
-        object-fit: cover;
+        object-fit: fill;
     }
 }
 
@@ -30,12 +29,16 @@ body {
         width: 100%;
         object-fit: cover;
     }
+}
 
-    @media only screen and (min-width:1024px) {
+@media only screen and (min-width:1024px) {
 
-        .contenedor-img-vasos img {
-            width: 100%;
-            object-fit: fill;
-        }
+    .contenedor-img-vasos {
+        width: 100%;
+    }
+
+    .contenedor-img-vasos img {
+        width: 100%;
+        object-fit: cover;
     }
 }

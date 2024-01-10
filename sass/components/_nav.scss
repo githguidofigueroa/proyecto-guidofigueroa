@@ -49,6 +49,7 @@ label {
 @media only screen and (min-width:521px) and (max-width:1023px) {
     .nav-link {
         color: goldenrod;
+        transition: transform 0.1s;
     }
 
     .navbar {
@@ -58,6 +59,8 @@ label {
 
     .nav-link:hover {
         color: white;
+        transform: scale(1.2);
+
     }
 
     .navbar-toggler-icon {
@@ -100,6 +103,7 @@ label {
 @media only screen and (min-width:1024px) {
     .nav-link {
         color: goldenrod;
+        transition: transform 0.1s;
     }
 
     .navbar {
@@ -109,7 +113,9 @@ label {
 
     .nav-link:hover {
         color: white;
+        transform: scale(1.2);
     }
+
 
     .navbar-toggler-icon {
         background-color: goldenrod;
