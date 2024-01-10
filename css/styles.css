@@ -478,44 +478,61 @@ label {
   .titulo-nosotros {
     text-align: center;
     margin-top: 50px;
-    font-size: 2rem;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
   }
   .subtitulo-laempresa {
     text-align: center;
-    margin-top: 30px;
-    font-size: 1, 5rem;
+    margin-top: 140px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
   .descripcion-empresa {
-    font-size: 10px;
     margin-top: 30px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  .caja-imagen-laempresa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-  .imagen-laempresa {
-    width: 100%;
-  }
-  .contenedor-img-vasos {
-    width: 100%;
-    height: 80px;
-  }
-  .contenedor-img-vasos img {
-    width: 100%;
-    height: 100%;
-  }
+  .caja-imagen-nosotros,
   .caja-imagen-trayectoria {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
   }
-  .imagen-trayectoria {
+  .articulo-empresa,
+  .articulo-trayectoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .articulo-empresa img,
+  .articulo-trayectoria img {
     width: 100%;
+  }
+  .articulo-empresa img p,
+  .articulo-trayectoria img p {
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+  }
+  .articulo-empresa .imagen-laempresa,
+  .articulo-empresa .imagen-trayectoria,
+  .articulo-trayectoria .imagen-laempresa,
+  .articulo-trayectoria .imagen-trayectoria {
+    transition: transform 0.5s, scale 0.5s;
+  }
+  .articulo-empresa .imagen-laempresa:hover,
+  .articulo-empresa .imagen-trayectoria:hover,
+  .articulo-trayectoria .imagen-laempresa:hover,
+  .articulo-trayectoria .imagen-trayectoria:hover {
+    transform: rotate(360deg) scale(1.2);
   }
 }
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
@@ -554,32 +571,54 @@ label {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
   }
   .subtitulo-laempresa {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 140px;
     margin-bottom: 30px;
     font-size: 1, 5rem;
+    font-weight: bold;
   }
   .descripcion-empresa {
     margin-top: 30px;
     text-align: center;
-    padding-left: 135px;
-    padding-right: 135px;
-  }
-  .caja-imagen-laempresa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-  .caja-imagen-trayectoria {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 30px;
   }
 }
+.articulo-empresa,
+.articulo-trayectoria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-left: 90px;
+}
+.articulo-empresa img,
+.articulo-trayectoria img {
+  width: 50vw;
+}
+.articulo-empresa img p,
+.articulo-trayectoria img p {
+  width: 50vw;
+  height: 50vw;
+  font-size: 5rem;
+}
+.articulo-empresa .imagen-laempresa,
+.articulo-empresa .imagen-trayectoria,
+.articulo-trayectoria .imagen-laempresa,
+.articulo-trayectoria .imagen-trayectoria {
+  transition: transform 0.5s, scale 0.5s;
+}
+.articulo-empresa .imagen-laempresa:hover,
+.articulo-empresa .imagen-trayectoria:hover,
+.articulo-trayectoria .imagen-laempresa:hover,
+.articulo-trayectoria .imagen-trayectoria:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+
 @media only screen and (min-width: 1024px) {
   .titulo-nuestros-productos {
     text-align: center;
@@ -670,7 +709,7 @@ label {
     margin: 10px 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 520px) {
   .contenedor-img-vasos {
     width: 100%;
   }
@@ -715,13 +754,19 @@ label {
   .titulo-servicios {
     text-align: center;
   }
-  .titulo-servicios,
+  .titulo-servicios {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
   .titulo-tarjeta {
     font-weight: bold;
     font-size: 1.5rem;
     margin: 0;
   }
-  .parrafo-introduccion,
+  .parrafo-introduccion {
+    font-size: 0.8rem;
+    padding: 30px;
+  }
   .parrafo-tarjeta {
     margin: 10px;
   }
@@ -753,10 +798,16 @@ label {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   text-align: center;
+  padding: 10px;
   margin: 20px 0;
+}
+.contenedor-tarjetas img {
+  width: 100%;
+  margin-top: 20px;
 }
 
 .tarjeta-servicio {
+  font-size: 0.7rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -776,19 +827,19 @@ label {
   text-align: center;
 }
 
-.titulo-servicios,
-.titulo-tarjeta {
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin: 0;
-}
-
-.parrafo-introduccion,
-.parrafo-tarjeta {
-  margin: 10px;
-}
-
 @media only screen and (max-width: 520px) {
+  .contactos-empresa {
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 3px;
+  }
+  .contactos-empresa h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: goldenrod;
+  }
   /* Mapa */
   .mapa-google {
     width: 100%;

@@ -1,5 +1,19 @@
 @media only screen and (max-width: 520px) {
 
+    .contactos-empresa {
+        text-align: center;
+        border: solid 2px black;
+        border-radius: 5px;
+        background-color: black;
+        padding: 3px;
+
+
+        h4 {
+            font-size: 1rem;
+            font-weight: bold;
+            color: goldenrod
+        }
+    }
 
     /* Mapa */
     .mapa-google {
@@ -106,11 +120,11 @@
         justify-content: space-evenly;
     }
 
-.seccion-formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .seccion-formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     /* Mapa */
     .mapa-google {
@@ -149,11 +163,11 @@
     }
 
     #mensaje-usuario.input-formulario-texto {
-            width: 300px;
-            height: 300px;
-        }
+        width: 300px;
+        height: 300px;
+    }
 
-    
+
 
     .label-formulario {
         font-size: 0.8rem;
@@ -175,15 +189,16 @@
 }
 
 @media only screen and (min-width:1024px) {
-    
 
-    
+
+
     .contenedor-formulario-mapa {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
     }
+
     .imagen-maltaylupulo img {
         max-width: 100%;
         height: auto;
@@ -264,16 +279,17 @@
         text-align: center;
         margin-top: 15px;
     }
-.mapa-contacto {
-    display: flex;
 
-    justify-content: column;
-    align-items: center;
-    justify-items: center;
-    flex-direction: column;
-}
+    .mapa-contacto {
+        display: flex;
 
-.contacto-telefono h4 {
-    text-align: center;
-}
+        justify-content: column;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+
+    .contacto-telefono h4 {
+        text-align: center;
+    }
 }

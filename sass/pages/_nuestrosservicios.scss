@@ -1,4 +1,5 @@
-@media only screen and (min-width:1024px) {
+@media only screen and (max-width: 520px) {
+    
     .contenedor-img-vasos {
         width: 100%;
     }
@@ -54,14 +55,20 @@
         text-align: center;
     }
 
-    .titulo-servicios,
+    .titulo-servicios {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
     .titulo-tarjeta {
         font-weight: bold;
         font-size: 1.5rem;
         margin: 0;
     }
 
-    .parrafo-introduccion,
+    .parrafo-introduccion {
+        font-size: 0.8rem;
+        padding: 30px;
+    }
     .parrafo-tarjeta {
         margin: 10px;
     }
@@ -94,10 +101,17 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     text-align: center;
+    padding: 10px;
     margin: 20px 0;
+
+    img {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
 
 .tarjeta-servicio {
+    font-size: 0.7rem;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -117,14 +131,3 @@
     text-align: center;
 }
 
-.titulo-servicios,
-.titulo-tarjeta {
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin: 0;
-}
-
-.parrafo-introduccion,
-.parrafo-tarjeta {
-    margin: 10px;
-}
