@@ -1,5 +1,5 @@
 @media only screen and (max-width: 520px) {
-    
+
     .contenedor-img-vasos {
         width: 100%;
     }
@@ -59,16 +59,14 @@
         font-size: 1.5rem;
         font-weight: bold;
     }
-    .titulo-tarjeta {
-        font-weight: bold;
-        font-size: 1.5rem;
-        margin: 0;
-    }
+
+    .titulo-tarjeta {}
 
     .parrafo-introduccion {
         font-size: 0.8rem;
         padding: 30px;
     }
+
     .parrafo-tarjeta {
         margin: 10px;
     }
@@ -132,7 +130,7 @@
 }
 
 @media only screen and (min-width:521px) and (max-width:1023px) {
-    
+
     .contenedor-img-vasos {
         width: 100%;
     }
@@ -192,6 +190,7 @@
         font-size: 1.5rem;
         font-weight: bold;
     }
+
     .titulo-tarjeta {
         font-weight: bold;
         font-size: 1.5rem;
@@ -202,6 +201,7 @@
         font-size: 0.8rem;
         padding: 30px;
     }
+
     .parrafo-tarjeta {
         margin: 10px;
     }
@@ -244,11 +244,25 @@
 }
 
 .tarjeta-servicio {
+    display: flex;
     font-size: 0.7rem;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s;
+
+    .contenedor-imagen {
+        width: 100%;
+        height: 200px;
+    }
+    img {   
+        width: 100%;
+    }
+
+    p {
+        height: 50%;
+        font-size: 0.9rem;
+    }
 }
 
 .tarjeta-servicio:hover {
@@ -265,87 +279,106 @@
 }
 
 @media only screen and (min-width:1024px) {
-    
+
     .contenedor-img-vasos {
         width: 100%;
     }
 
-.caja-imagen-servicios {
-    width: 250px;
-    height: 250px;
+    .caja-imagen-servicios {
+        width: 250px;
+        height: 250px;
 
     }
 }
 
-    .contenedor_titulo-servicios {
-        text-align: center;
-        margin: 20px 0;
-    }
+.contenedor_titulo-servicios {
+    text-align: center;
+    margin: 20px 0;
+}
 
-    .contenedor-introduccion {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        text-align: center;
-        margin: 20px 0;
-    }
+.contenedor-introduccion {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
 
-    .introduccion-servicios img {
-        width: 100%;
-        height: auto;
-    }
+.introduccion-servicios img {
+    width: 100%;
+    height: auto;
+}
 
-    .lista-footer li {
-        list-style: none;
-    }
+.lista-footer li {
+    list-style: none;
+}
 
 
-    .contenedor-tarjetas {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
-        text-align: center;
-        margin: 20px;
-    }
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: center;
+    margin: 20px;
+}
 
-    .tarjeta-servicio {
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        overflow: hidden;
-        transition: transform 0.3s;
-        
-    }
+.tarjeta-servicio {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
 
-    .tarjeta-servicio:hover {
-        transform: scale(1.05);
-    }
+}
 
-    .contenedor-titulo-tarjeta {
-        background-color: #f8f8f8;
-        padding: 10px;
-    }
+.contenedor-imagen,
+.contenedor-descripcion {
+    flex: 1;
+}
 
-    .titulo-servicios {
-        text-align: center;
-    }
+.contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
-    .titulo-servicios {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-    .titulo-tarjeta {
-        font-weight: bold;
-        font-size: 1.5rem;
-        margin: 0;
-    }
+.contenedor-descripcion {
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
-    .parrafo-introduccion {
-        font-size: 0.8rem;
-        padding: 30px;
-    }
-    .parrafo-tarjeta {
-        margin: 10px;
-    }
+.tarjeta-servicio:hover {
+    transform: scale(1.05);
+}
+
+.contenedor-titulo-tarjeta {
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.titulo-servicios {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.titulo-tarjeta {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.parrafo-introduccion {
+    font-size: 1rem;
+    padding: 30px;
+}
+
+.parrafo-tarjeta {
+    margin: 10px;
+}
 
 
 .contenedor-img-vasos {
@@ -400,8 +433,4 @@
 .contenedor-titulo-tarjeta {
     background-color: #f8f8f8;
     padding: 10px;
-}
-
-.titulo-servicios {
-    text-align: center;
 }

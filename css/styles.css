@@ -477,15 +477,15 @@ label {
 @media only screen and (max-width: 520px) {
   .titulo-nosotros {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   .subtitulo-laempresa {
     text-align: center;
-    margin-top: 140px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     font-size: 1.5rem;
     font-weight: bold;
   }
@@ -494,13 +494,14 @@ label {
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    font-size: 0.6rem;
   }
   .caja-imagen-nosotros,
   .caja-imagen-trayectoria {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .articulo-empresa,
   .articulo-trayectoria {
@@ -508,7 +509,7 @@ label {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -540,37 +541,6 @@ label {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 2rem;
-  }
-  .subtitulo-laempresa {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-size: 1, 5rem;
-  }
-  .descripcion-empresa {
-    margin-top: 30px;
-    text-align: center;
-    padding-left: 135px;
-    padding-right: 135px;
-  }
-  .caja-imagen-laempresa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-  .caja-imagen-trayectoria {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .titulo-nosotros {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     font-size: 2.5rem;
     font-weight: bold;
   }
@@ -585,40 +555,310 @@ label {
     margin-top: 30px;
     text-align: center;
     padding: 30px;
+    font-size: 0.5rem;
+  }
+  .articulo-empresa,
+  .articulo-trayectoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .articulo-empresa img,
+  .articulo-trayectoria img {
+    width: 50vw;
+    margin: 0;
+    padding: 0;
+  }
+  .articulo-empresa .imagen-laempresa,
+  .articulo-empresa .imagen-trayectoria,
+  .articulo-trayectoria .imagen-laempresa,
+  .articulo-trayectoria .imagen-trayectoria {
+    transition: transform 0.5s, scale 0.5s;
+  }
+  .articulo-empresa .imagen-laempresa:hover,
+  .articulo-empresa .imagen-trayectoria:hover,
+  .articulo-trayectoria .imagen-laempresa:hover,
+  .articulo-trayectoria .imagen-trayectoria:hover {
+    transform: rotate(360deg) scale(1.2);
   }
 }
-.articulo-empresa,
-.articulo-trayectoria {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 90px;
-  margin-left: 90px;
+@media only screen and (min-width: 1024px) {
+  .titulo-nosotros {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .subtitulo-laempresa {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 1, 5rem;
+    font-weight: bold;
+  }
+  .descripcion-empresa {
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px;
+  }
+  .articulo-empresa,
+  .articulo-trayectoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .articulo-empresa img,
+  .articulo-trayectoria img {
+    width: 50vw;
+  }
+  .articulo-empresa img p,
+  .articulo-trayectoria img p {
+    width: 50vw;
+    height: 50vw;
+    font-size: 5rem;
+  }
+  .articulo-empresa .imagen-laempresa,
+  .articulo-empresa .imagen-trayectoria,
+  .articulo-trayectoria .imagen-laempresa,
+  .articulo-trayectoria .imagen-trayectoria {
+    transition: transform 0.5s, scale 0.5s;
+  }
+  .articulo-empresa .imagen-laempresa:hover,
+  .articulo-empresa .imagen-trayectoria:hover,
+  .articulo-trayectoria .imagen-laempresa:hover,
+  .articulo-trayectoria .imagen-trayectoria:hover {
+    transform: rotate(360deg) scale(1.2);
+  }
 }
-.articulo-empresa img,
-.articulo-trayectoria img {
-  width: 50vw;
+@media only screen and (max-width: 520px) {
+  .titulo-nuestros-productos {
+    text-align: center;
+  }
+  .subtitulo-nuestras-cervezas {
+    text-align: center;
+  }
+  .introduccion-productos {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 20px;
+    text-align: center;
+  }
+  .introduccion-productos p {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .introduccion-productos img {
+    width: 100%;
+    height: auto;
+  }
+  .articulo-productos-cervezas {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .titulo-american-ipa,
+  .titulo-apa,
+  .titulo-stout,
+  .titulo-golden,
+  .titulo-honey,
+  .titulo-redlager,
+  .titulo-neipa {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  .articulo-productos-cervezas p {
+    margin: 10px;
+  }
+  .titulo-nuestros-productos {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  .subtitulo-nuestras-cervezas {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  .introduccion-productos {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .introduccion-productos P {
+    font-size: 0.9rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .articulo-productos-cervezas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 1.2rem;
+    transition: transform 0.1s;
+  }
+  .articulo-productos-cervezas:hover {
+    transform: scale(1.02);
+  }
+  .contenedor-productos-cervezas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  .contenedor-productos-cervezas p {
+    width: 50vw;
+    padding: 5px;
+    font-size: 0.6rem;
+  }
+  .contenedor-productos-cervezas img {
+    width: 20%;
+  }
 }
-.articulo-empresa img p,
-.articulo-trayectoria img p {
-  width: 50vw;
-  height: 50vw;
-  font-size: 5rem;
+@media only screen and (min-width: 521px) and (max-width: 1023px) {
+  .titulo-nuestros-productos {
+    text-align: center;
+  }
+  .subtitulo-nuestras-cervezas {
+    text-align: center;
+  }
+  .introduccion-productos {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 20px;
+    text-align: center;
+  }
+  .introduccion-productos p {
+    font-size: 1.1rem;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .introduccion-productos img {
+    width: 100%;
+    height: auto;
+  }
+  .articulo-productos-cervezas {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .articulo-productos-cervezas h4 {
+    font-size: 1.4rem;
+  }
+  .titulo-american-ipa,
+  .titulo-apa,
+  .titulo-stout,
+  .titulo-golden,
+  .titulo-honey,
+  .titulo-redlager,
+  .titulo-neipa {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .articulo-productos-cervezas p {
+    margin: 10px;
+  }
+  .titulo-nuestros-productos {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+  .subtitulo-nuestras-cervezas {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+  }
+  .introduccion-productos {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .articulo-productos-cervezas {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 1.2rem;
+    transition: transform 0.1s;
+  }
+  .articulo-productos-cervezas:hover {
+    transform: scale(1.02);
+  }
+  .contenedor-productos-cervezas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  .contenedor-productos-cervezas p {
+    width: 50vw;
+    padding: 20px;
+    font-size: 0.8rem;
+  }
+  .contenedor-productos-cervezas img {
+    width: 20%;
+  }
+  .titulo-american-ipa,
+  .titulo-apa,
+  .titulo-stout,
+  .titulo-golden,
+  .titulo-honey,
+  .titulo-redlager,
+  .titulo-neipa {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  .articulo-productos-cervezas p {
+    margin: 10px 0;
+  }
 }
-.articulo-empresa .imagen-laempresa,
-.articulo-empresa .imagen-trayectoria,
-.articulo-trayectoria .imagen-laempresa,
-.articulo-trayectoria .imagen-trayectoria {
-  transition: transform 0.5s, scale 0.5s;
-}
-.articulo-empresa .imagen-laempresa:hover,
-.articulo-empresa .imagen-trayectoria:hover,
-.articulo-trayectoria .imagen-laempresa:hover,
-.articulo-trayectoria .imagen-trayectoria:hover {
-  transform: rotate(360deg) scale(1.2);
-}
-
 @media only screen and (min-width: 1024px) {
   .titulo-nuestros-productos {
     text-align: center;
@@ -785,11 +1025,6 @@ label {
     font-size: 1.5rem;
     font-weight: bold;
   }
-  .titulo-tarjeta {
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin: 0;
-  }
   .parrafo-introduccion {
     font-size: 0.8rem;
     padding: 30px;
@@ -952,11 +1187,23 @@ label {
 }
 
 .tarjeta-servicio {
+  display: flex;
   font-size: 0.7rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s;
+}
+.tarjeta-servicio .contenedor-imagen {
+  width: 100%;
+  height: 200px;
+}
+.tarjeta-servicio img {
+  width: 100%;
+}
+.tarjeta-servicio p {
+  height: 50%;
+  font-size: 0.9rem;
 }
 
 .tarjeta-servicio:hover {
@@ -1012,10 +1259,30 @@ label {
 }
 
 .tarjeta-servicio {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s;
+}
+
+.contenedor-imagen,
+.contenedor-descripcion {
+  flex: 1;
+}
+
+.contenedor-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.contenedor-descripcion {
+  background-color: #f8f8f8;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .tarjeta-servicio:hover {
@@ -1029,10 +1296,7 @@ label {
 
 .titulo-servicios {
   text-align: center;
-}
-
-.titulo-servicios {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -1043,7 +1307,7 @@ label {
 }
 
 .parrafo-introduccion {
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 30px;
 }
 
@@ -1101,10 +1365,6 @@ label {
 .contenedor-titulo-tarjeta {
   background-color: #f8f8f8;
   padding: 10px;
-}
-
-.titulo-servicios {
-  text-align: center;
 }
 
 @media only screen and (max-width: 520px) {
@@ -1205,60 +1465,104 @@ label {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+  }
+  .imagen-maltaylupulo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .titulo-contacto {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  .subtitulo-contacto {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
   }
   .seccion-formulario {
+    width: 100%;
+    max-width: 500px;
+  }
+  .input-container {
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  .mapa-google {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
+  }
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
   }
   /* Mapa */
   .mapa-google {
-    display: flex;
-    justify-content: end;
+    width: 400px;
     height: 400px;
-    width: 300px;
-    margin-top: 50px;
-  }
-  .mapa-google iframe {
-    width: 100%;
   }
   /* Tìtulo y Subtìtulo*/
   .titulo-contacto {
     text-align: center;
-    margin-top: 30px;
-    font-size: 1.5rem;
-    font-weight: bold;
+    margin-top: 50px;
+    font-size: 2rem;
   }
   .subtitulo-contacto {
     text-align: center;
-    margin-top: 30px;
-    font-size: 1rem;
+    margin-top: 15px;
   }
-  .input-container {
-    margin-top: 30px;
+  .mapa-contacto {
     display: flex;
-    width: 80%;
-    height: 60%;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    justify-items: center;
   }
-  #mensaje-usuario.input-formulario-texto {
-    width: 300px;
-    height: 300px;
+  .contacto-telefono h4 {
+    text-align: center;
   }
-  .label-formulario {
-    font-size: 0.8rem;
-    font-weight: bold;
+  .contactos-empresa {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 3px;
   }
-  footer li {
-    list-style: none;
-  }
-  .texto-final-footer h6 {
-    font-size: 0.7rem;
-  }
-  .lista-footer a {
-    font-size: 1rem;
+  .contactos-empresa h4 {
+    font-size: 1.3rem;
+    color: goldenrod;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -1316,6 +1620,10 @@ label {
   }
   .mapa-google {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
   iframe {
     width: 100%;
@@ -1346,6 +1654,20 @@ label {
   }
   .contacto-telefono h4 {
     text-align: center;
+  }
+  .contactos-empresa {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 3px;
+  }
+  .contactos-empresa h4 {
+    font-size: 1.3rem;
+    color: goldenrod;
   }
 }
 
