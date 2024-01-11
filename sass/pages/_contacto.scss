@@ -195,8 +195,7 @@
     .contenedor-formulario-mapa {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
+        align-items: center;;
     }
 
     .imagen-maltaylupulo img {
@@ -222,6 +221,9 @@
 
     .input-container {
         margin-bottom: 15px;
+        display:flex; 
+        justify-content: center;
+        flex-direction: column;
     }
 
     label {
@@ -282,11 +284,10 @@
 
     .mapa-contacto {
         display: flex;
-
-        justify-content: column;
+        justify-content: center;
+        flex-direction: column;
         align-items: center;
         justify-items: center;
-        flex-direction: column;
     }
 
     .contacto-telefono h4 {

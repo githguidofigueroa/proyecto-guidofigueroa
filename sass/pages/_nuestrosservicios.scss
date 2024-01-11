@@ -373,16 +373,17 @@
 .contenedor-tarjetas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 10px;
     text-align: center;
     padding: 10px;
     margin: 20px 0;
 
     img {
-        width: 100%;
+        width: 50vw;
         margin-top: 20px;
     }
 }
+
 
 .tarjeta-servicio {
     font-size: 0.7rem;
