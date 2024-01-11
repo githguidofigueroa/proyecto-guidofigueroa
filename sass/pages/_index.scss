@@ -6,6 +6,13 @@
         gap: 25px;
     }
 
+.titulo-intro {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+
     .section-inicio article {
         width: 100%;
         display: flex;
@@ -19,7 +26,29 @@
         padding: 10px;
     }
 
+    .caja-cerveza {
+        display:flex;
+        justify-content: column;
+        flex-direction: column;
+        align-items: center;
+        border: solid 2px grey;
+        padding: 10px;
+
+        &_parrafo p {
+            font-size: 0.7rem;
+        }
+.titulos-cervezas {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}    
+img {
+    width: 40vw;
+    padding: 20px;
 }
+    }
+}
+
 
 @media only screen and (min-width:521px) and (max-width:1023px) {
     .section-inicio {
@@ -30,7 +59,7 @@
     }
 
     .section-inicio article {
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -43,21 +72,54 @@
     }
 
     .titulo-intro {
-        padding-top: 3%;
-        padding-bottom: 8%;
+        padding-top: 50px;
+        padding-bottom: 10  0px;
         font-size: 30px;
         text-align: center;
         color: black;
+        font-weight: bolder;
     }
 
     .titulos-cervezas {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bolder;
     }
 
     .parrafo-cervezas {
-        margin: 20px;
-        padding: 20px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .caja-cerveza {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px grey;
+        padding: 30px;
+        overflow: hidden;
+        transition: transform 0.1s;
+        font-size: 0.8rem;
+    }
+
+    .caja-cerveza:hover {
+        transform: scale(1.02);
+    }
+
+    .caja-cerveza-contenedor {
+        display: flex;
+        justify-content: column;
+        justify-items: center;
+        align-items: center;
+        width: 90%;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .caja-cerveza-imagen img {
+        width: 130px;
+        height: 130px;
+
     }
 }
 
