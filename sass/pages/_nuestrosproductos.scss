@@ -12,6 +12,12 @@
         grid-template-columns: 2fr;
         gap: 20px;
         text-align: center;
+
+        p {
+            font-size: 1.1rem;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
 
     .introduccion-productos img {
@@ -28,13 +34,11 @@
         border: 1px solid #ddd;
         border-radius: 8px;
         overflow: hidden;
+        h4 {
+            font-size: 1.4rem;
+        }
     }
 
-    .contenedor-productos-cervezas {
-        margin-bottom: 10px;
-        background-color: #f8f8f8;
-        padding: 10px;
-    }
 
     .titulo-american-ipa,
     .titulo-apa,
@@ -44,7 +48,7 @@
     .titulo-redlager,
     .titulo-neipa {
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin: 0;
     }
 
@@ -82,10 +86,18 @@
         display: grid;
         grid-template-rows: auto 1fr;
         gap: 10px;
+        margin-left: 60px;
+        margin-right: 60px;
         text-align: center;
-        border: 1px solid #ddd;
+        border: 1px solid grey;
         border-radius: 8px;
         overflow: hidden;
+        font-size: 1.2rem;
+        transition: transform 0.1s;
+    }
+
+    .articulo-productos-cervezas:hover {
+        transform: scale(1.02);
     }
 
     .contenedor-productos-cervezas {
@@ -98,7 +110,7 @@
 
         p {
             width: 50vw;
-            padding: 60px;
+            padding: 20px;
         }
 
         img {
