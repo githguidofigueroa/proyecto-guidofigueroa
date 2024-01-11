@@ -9,7 +9,7 @@
 
 
         h4 {
-            font-size: 1rem;
+            font-size: 3vw;
             font-weight: bold;
             color: goldenrod
         }
@@ -191,8 +191,8 @@
 
     /* Mapa */
     .mapa-google {
-        width: 400px;
-        height: 400px;
+        width: 30vw;
+        height: 60vw;
     }
 
     /* Tìtulo y Subtìtulo*/
@@ -220,7 +220,7 @@
     }
 
 .contactos-empresa {
-    width: 70%;
+    width: 50%;
     display:flex;
     flex-direction: column;
         text-align: center;
@@ -230,7 +230,7 @@
         padding: 3px;
 
         h4 {
-            font-size: 1.3rem;
+            font-size: 1vw;
             color: goldenrod
         }   
 }
