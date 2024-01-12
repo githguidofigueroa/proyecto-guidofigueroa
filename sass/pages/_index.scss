@@ -9,7 +9,7 @@
 .titulo-intro {
     font-size: 1.3rem;
     text-align: center;
-    font-weight: bold;
+    font-weight: $letra-negrita;
     padding: 30px;
 }
 
@@ -39,7 +39,7 @@
         }
 .titulos-cervezas {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: $letra-negrita;
     padding: 5px;
 }    
 img {
@@ -167,7 +167,7 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: solid 5px goldenrod;
+        border: solid 5px $color-destacado;
         border-radius: 1900px;
         padding: 30px;
         overflow: hidden;

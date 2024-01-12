@@ -11,16 +11,16 @@
 
     .titulo-header {
         font-family: 'Permanent Marker', cursive;
-        color: white;
+        color: $color-clasico;
         font-size: 4rem;
     }
 
     .subtitulo-header {
         font-family: 'Permanent Marker', cursive;
         margin-top: 2vw;
-        color: white;
+        color: $color-clasico;
         font-size: 2em;
-        font-weight: bold;
+        font-weight: $letra-negrita;
         text-align: center;
     }
 
@@ -40,16 +40,16 @@
 
     .titulo-header {
         font-family: 'Permanent Marker', cursive;
-        color: white;
+        color: $color-clasico;
         font-size: 4rem;
     }
 
     .subtitulo-header {
         font-family: 'Permanent Marker', cursive;
         margin-top: 2vw;
-        color: white;
+        color: $color-clasico;
         font-size: 2em;
-        font-weight: bold;
+        font-weight: $letra-negrita;
         text-align: center;
     }
 }
@@ -67,16 +67,16 @@
 
     .titulo-header {
         font-family: 'Permanent Marker', cursive;
-        color: white;
+        color: $color-clasico;
         font-size: 4rem;
     }
 
     .subtitulo-header {
         font-family: 'Permanent Marker', cursive;
         margin-top: 2vw;
-        color: white;
+        color: $color-clasico;
         font-size: 2em;
-        font-weight: bold;
+        font-weight: $letra-negrita;
         text-align: center;
     }
 }

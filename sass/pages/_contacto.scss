@@ -10,8 +10,8 @@
 
         h4 {
             font-size: 3vw;
-            font-weight: bold;
-            color: goldenrod
+            font-weight: $letra-negrita;
+            color: $color-destacado;
         }
     }
 
@@ -36,7 +36,7 @@
         text-align: center;
         margin-top: 30px;
         font-size: 1, 5rem;
-        font-weight: bold;
+        font-weight: $letra-negrita;
     }
 
     .subtitulo-contacto {
@@ -79,7 +79,7 @@
 
     .label-formulario {
         font-size: 0.7rem;
-        font-weight: bold;
+        font-weight: $letra-negrita;
     }
 
     .input-formulario::placeholder {
@@ -103,7 +103,7 @@
     .contacto-telefono,
     .contacto-correo-empresa {
         font-size: 0.8rem;
-        font-weight: bold;
+        font-weight: $letra-negrita;
     }
 
     footer {
@@ -125,7 +125,7 @@
     }
 
     .titulo-contacto {
-        font-weight: bold;
+        font-weight: $letra-negrita;
         font-size: 2rem;
         margin: 10px 0;
     }
@@ -165,7 +165,7 @@
 
     button {
         background-color: #4caf50;
-        color: white;
+        color: $color-clasico;
         padding: 10px 15px;
         border: none;
         border-radius: 4px;
@@ -231,7 +231,7 @@
 
         h4 {
             font-size: 1vw;
-            color: goldenrod
+            color: $color-destacado
         }   
 }
  }
@@ -252,7 +252,7 @@
     }
 
     .titulo-contacto {
-        font-weight: bold;
+        font-weight: $letra-negrita;
         font-size: 2rem;
         margin: 10px 0;
     }
@@ -292,7 +292,7 @@
 
     button {
         background-color: #4caf50;
-        color: white;
+        color: $color-clasico;
         padding: 10px 15px;
         border: none;
         border-radius: 4px;
@@ -358,7 +358,7 @@
 
         h4 {
             font-size: 1.3rem;
-            color: goldenrod
+            color: $color-destacado
         }   
 }
 }

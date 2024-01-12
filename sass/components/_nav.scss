@@ -1,5 +1,5 @@
 .nav-link {
-    color: goldenrod;
+    color: $color-destacado;
 }
 
 .navbar {
@@ -8,15 +8,15 @@
 }
 
 .nav-link:hover {
-    color: white;
+    color: $color-clasico;
 }
 
 .navbar-toggler-icon {
-    background-color: goldenrod;
+    background-color: $color-destacado;
 }
 
 .caja-barra {
-    border: 1px solid white;
+    border: 1px solid $color-clasico;
     width: 25%;
     height: 40px;
     display: flex;
@@ -48,7 +48,7 @@ label {
 
 @media only screen and (min-width:521px) and (max-width:1023px) {
     .nav-link {
-        color: goldenrod;
+        color: $color-destacado;
         transition: transform 0.1s;
     }
 
@@ -58,17 +58,17 @@ label {
     }
 
     .nav-link:hover {
-        color: white;
+        color: $color-clasico;
         transform: scale(1.2);
 
     }
 
     .navbar-toggler-icon {
-        background-color: goldenrod;
+        background-color: $color-destacado;
     }
 
     .caja-barra {
-        border: 1px solid white;
+        border: 1px solid $color-clasico;
         width: 25%;
         height: 40px;
         display: flex;
@@ -102,7 +102,7 @@ label {
 
 @media only screen and (min-width:1024px) {
     .nav-link {
-        color: goldenrod;
+        color: $color-destacado;
         transition: transform 0.1s;
     }
 
@@ -112,17 +112,17 @@ label {
     }
 
     .nav-link:hover {
-        color: white;
+        color: $color-clasico;
         transform: scale(1.2);
     }
 
 
     .navbar-toggler-icon {
-        background-color: goldenrod;
+        background-color: $color-destacado;
     }
 
     .caja-barra {
-        border: 1px solid white;
+        border: 1px solid $color-clasico;
         width: 25%;
         height: 40px;
         display: flex;

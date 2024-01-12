@@ -3,7 +3,7 @@
     footer {
         list-style: none;
         background-color: black;
-        color: white;
+        color: $color-clasico;
         margin-top: 60px;
         padding: 15px;
         
@@ -35,7 +35,7 @@
 
     .footer-index a {
         text-decoration: none;
-        color: goldenrod
+        color: $color-destacado;
     }
 
     .texto-final-footer {
@@ -62,7 +62,7 @@
     footer {
         list-style: none;
         background-color: black;
-        color: white;
+        color: $color-clasico;
         margin-top: 60px;
         padding: 15px;
 
@@ -82,7 +82,7 @@
 
         a {
             text-decoration: none;
-            color: goldenrod
+            color: $color-destacado;
         }
     }
 
@@ -110,7 +110,7 @@
     footer {
         list-style: none;
         background-color: black;
-        color: white;
+        color: $color-clasico;
         margin-top: 60px;
         padding: 15px;
     }
@@ -129,7 +129,7 @@
 
     .footer-index a {
         text-decoration: none;
-        color: goldenrod
+        color: $color-destacado;
     }
 
     .texto-final-footer {
