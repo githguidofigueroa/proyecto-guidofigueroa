@@ -47,9 +47,6 @@ body {
   footer ul {
     text-align: center;
   }
-  .footer-index {
-    margin-bottom: 3%;
-  }
   .lista-footer {
     flex-direction: column;
     display: flex;
@@ -64,7 +61,10 @@ body {
     list-style: none;
     font-size: 13px;
   }
-  .footer-index a {
+  .footer-index {
+    margin-bottom: 3%;
+  }
+  a {
     text-decoration: none;
     color: goldenrod;
   }
@@ -138,9 +138,6 @@ body {
   }
   .items-footer {
     list-style: none;
-  }
-  .footer-index {
-    margin-bottom: 3%;
   }
   .footer-index a {
     text-decoration: none;

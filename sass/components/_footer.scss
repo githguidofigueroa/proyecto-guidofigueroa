@@ -1,20 +1,16 @@
 @media only screen and (max-width: 520px) {
-    
     footer {
         list-style: none;
         background-color: black;
         color: $color-clasico;
         margin-top: 60px;
         padding: 15px;
-        
+
         ul {
             text-align: center;
         }
     }
-    
-    .footer-index {
-        margin-bottom: 3%;
-    }
+
     .lista-footer {
         flex-direction: column;
         display: flex;
@@ -24,7 +20,6 @@
         font-size: 14px
     }
 
-
     .items-footer {
         display: inline-block;
         text-align: center;
@@ -32,8 +27,11 @@
         font-size: 13px;
     }
 
+    .footer-index {
+        margin-bottom: 3%;
+    }
 
-    .footer-index a {
+    a {
         text-decoration: none;
         color: $color-destacado;
     }
@@ -113,18 +111,14 @@
         color: $color-clasico;
         margin-top: 60px;
         padding: 15px;
-    }
 
-    footer ul {
-        text-align: center;
+        ul {
+            text-align: center;
+        }
     }
 
     .items-footer {
         list-style: none;
-    }
-
-    .footer-index {
-        margin-bottom: 3%;
     }
 
     .footer-index a {
@@ -143,6 +137,6 @@
     .texto-final-footer h6 {
         padding: 5px;
 
-        
+
     }
 }
