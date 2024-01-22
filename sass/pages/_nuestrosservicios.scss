@@ -253,7 +253,8 @@
         width: 100%;
         height: 200px;
     }
-    img {   
+
+    img {
         width: 100%;
     }
 
@@ -277,10 +278,6 @@
 }
 
 @media only screen and (min-width:1024px) {
-
-    .contenedor-img-vasos {
-        width: 100%;
-    }
 
     .caja-imagen-servicios {
         width: 250px;
@@ -320,15 +317,20 @@
     margin: 20px;
 }
 
+
 .tarjeta-servicio {
     display: flex;
     flex-direction: column;
+    font-size: 0.7rem;
     height: 100%;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: solid 3px $color-tarjeta-cerveza;
+    border-radius: 5px;
     overflow: hidden;
     transition: transform 0.3s;
+}
 
+.tarjeta-servicio:hover {
+    transform: scale(1.05);
 }
 
 .contenedor-imagen,
@@ -379,10 +381,6 @@
 }
 
 
-.contenedor-img-vasos {
-    text-align: center;
-}
-
 .contenedor_titulo-servicios {
     text-align: center;
     margin: 20px 0;
@@ -415,20 +413,18 @@
     }
 }
 
-
-.tarjeta-servicio {
-    font-size: 0.7rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s;
-}
-
-.tarjeta-servicio:hover {
-    transform: scale(1.05);
-}
-
 .contenedor-titulo-tarjeta {
     background-color: #f8f8f8;
     padding: 10px;
+}
+
+.contenedor-img-vasos {
+    width: 100%;
+    height: 500px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }

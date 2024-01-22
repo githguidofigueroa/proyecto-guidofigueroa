@@ -67,7 +67,7 @@
 
 
 @media only screen and (min-width:521px) and (max-width:1023px) {
- 
+
     .titulo-nosotros {
         text-align: center;
         margin-top: 50px;
@@ -141,33 +141,44 @@
         text-align: center;
         padding: 30px;
     }
-    
+
     .articulo-empresa,
     .articulo-trayectoria {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
 
-    img {
-        width: 50vw;
-
-        p {
+        img {
             width: 50vw;
-            height: 50vw;
-            font-size: 5rem;
+
+            p {
+                width: 50vw;
+                height: 50vw;
+                font-size: 5rem;
+            }
+        }
+
+        .imagen-laempresa,
+        .imagen-trayectoria {
+            transition: transform 0.5s, scale 0.5s;
+        }
+
+        .imagen-laempresa:hover,
+        .imagen-trayectoria:hover {
+            transform: rotate(360deg) scale(1.2);
         }
     }
 
-    .imagen-laempresa,
-    .imagen-trayectoria {
-        transition: transform 0.5s, scale 0.5s;
-    }
+    .contenedor-img-vasos {
+        width: 100%;
+        height: 500px;
 
-    .imagen-laempresa:hover,
-    .imagen-trayectoria:hover {
-        transform: rotate(360deg) scale(1.2);
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
-}
 }

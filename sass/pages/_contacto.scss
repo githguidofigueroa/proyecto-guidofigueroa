@@ -116,7 +116,8 @@
     .contenedor-formulario-mapa {
         display: flex;
         flex-direction: row;
-        align-items: center;;
+        align-items: center;
+        ;
     }
 
     .imagen-maltaylupulo img {
@@ -142,7 +143,7 @@
 
     .input-container {
         margin-bottom: 15px;
-        display:flex; 
+        display: flex;
         justify-content: center;
         flex-direction: column;
     }
@@ -177,7 +178,7 @@
 
     .mapa-google {
         margin-top: 20px;
-        display:flex;
+        display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -219,10 +220,10 @@
         text-align: center;
     }
 
-.contactos-empresa {
-    width: 50%;
-    display:flex;
-    flex-direction: column;
+    .contactos-empresa {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
         text-align: center;
         border: solid 2px black;
         border-radius: 5px;
@@ -232,9 +233,9 @@
         h4 {
             font-size: 1vw;
             color: $color-destacado
-        }   
+        }
+    }
 }
- }
 
 @media only screen and (min-width:1024px) {
 
@@ -243,7 +244,8 @@
     .contenedor-formulario-mapa {
         display: flex;
         flex-direction: row;
-        align-items: center;;
+        align-items: center;
+        ;
     }
 
     .imagen-maltaylupulo img {
@@ -269,7 +271,7 @@
 
     .input-container {
         margin-bottom: 15px;
-        display:flex; 
+        display: flex;
         justify-content: center;
         flex-direction: column;
     }
@@ -304,7 +306,7 @@
 
     .mapa-google {
         margin-top: 20px;
-        display:flex;
+        display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -346,10 +348,10 @@
         text-align: center;
     }
 
-.contactos-empresa {
-    width: 50%;
-    display:flex;
-    flex-direction: column;
+    .contactos-empresa {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
         text-align: center;
         border: solid 2px black;
         border-radius: 5px;
@@ -359,6 +361,17 @@
         h4 {
             font-size: 1.3rem;
             color: $color-destacado
-        }   
-}
+        }
+    }
+
+    .contenedor-img-vasos {
+        width: 100%;
+        height: 500px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }

@@ -345,13 +345,6 @@ label {
     text-decoration: none;
     color: #eeba0b;
   }
-  .imagen-fabrica {
-    margin: auto;
-    height: auto;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
   nav {
     text-align: center;
   }
@@ -502,8 +495,8 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 5px goldenrod;
-    border-radius: 1900px;
+    border: solid 3px #cfcaca;
+    border-radius: 5px;
     padding: 30px;
     overflow: hidden;
     transition: transform 0.1s;
@@ -523,6 +516,15 @@ label {
   .caja-cerveza-imagen img {
     width: 250px;
     height: 250px;
+  }
+  .contenedor-img-vasos {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-img-vasos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -684,6 +686,15 @@ label {
   .articulo-trayectoria .imagen-laempresa:hover,
   .articulo-trayectoria .imagen-trayectoria:hover {
     transform: rotate(360deg) scale(1.2);
+  }
+  .contenedor-img-vasos {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-img-vasos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -936,14 +947,21 @@ label {
     display: grid;
     grid-template-rows: auto 1fr;
     gap: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
     margin-top: 30px;
     text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: solid 3px #cfcaca;
+    border-radius: 5px;
     overflow: hidden;
+    font-size: 1.2rem;
+    transition: transform 0.1s;
   }
   .articulo-productos-cervezas h4 {
     font-size: 1.4rem;
+  }
+  .articulo-productos-cervezas:hover {
+    transform: scale(1.02);
   }
   .titulo-american-ipa,
   .titulo-apa,
@@ -981,22 +999,6 @@ label {
     width: 100%;
     height: auto;
   }
-  .articulo-productos-cervezas {
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 10px;
-    margin-left: 60px;
-    margin-right: 60px;
-    text-align: center;
-    border: 1px solid grey;
-    border-radius: 8px;
-    overflow: hidden;
-    font-size: 1.2rem;
-    transition: transform 0.1s;
-  }
-  .articulo-productos-cervezas:hover {
-    transform: scale(1.02);
-  }
   .contenedor-productos-cervezas {
     display: flex;
     align-items: center;
@@ -1025,6 +1027,15 @@ label {
   }
   .articulo-productos-cervezas p {
     margin: 10px 0;
+  }
+  .contenedor-img-vasos {
+    width: 100%;
+    height: 600px;
+  }
+  .contenedor-img-vasos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -1271,9 +1282,6 @@ label {
 }
 
 @media only screen and (min-width: 1024px) {
-  .contenedor-img-vasos {
-    width: 100%;
-  }
   .caja-imagen-servicios {
     width: 250px;
     height: 250px;
@@ -1312,11 +1320,16 @@ label {
 .tarjeta-servicio {
   display: flex;
   flex-direction: column;
+  font-size: 0.7rem;
   height: 100%;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: solid 3px #cfcaca;
+  border-radius: 5px;
   overflow: hidden;
   transition: transform 0.3s;
+}
+
+.tarjeta-servicio:hover {
+  transform: scale(1.05);
 }
 
 .contenedor-imagen,
@@ -1366,10 +1379,6 @@ label {
   margin: 10px;
 }
 
-.contenedor-img-vasos {
-  text-align: center;
-}
-
 .contenedor_titulo-servicios {
   text-align: center;
   margin: 20px 0;
@@ -1401,21 +1410,19 @@ label {
   margin-top: 20px;
 }
 
-.tarjeta-servicio {
-  font-size: 0.7rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.3s;
-}
-
-.tarjeta-servicio:hover {
-  transform: scale(1.05);
-}
-
 .contenedor-titulo-tarjeta {
   background-color: #f8f8f8;
   padding: 10px;
+}
+
+.contenedor-img-vasos {
+  width: 100%;
+  height: 500px;
+}
+.contenedor-img-vasos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 520px) {
@@ -1719,6 +1726,15 @@ label {
   .contactos-empresa h4 {
     font-size: 1.3rem;
     color: goldenrod;
+  }
+  .contenedor-img-vasos {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-img-vasos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
