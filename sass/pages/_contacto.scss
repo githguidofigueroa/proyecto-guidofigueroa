@@ -54,16 +54,6 @@
         margin-top: 30px
     }
 
-    .contenedor-img-intro {
-        width: 100%;
-        height: 80px;
-
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
     .caja-boton {
         display: flex;
         flex-direction: column;
@@ -364,14 +354,4 @@
         }
     }
 
-    .contenedor-img-intro {
-        width: 100%;
-        height: 500px;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
 }

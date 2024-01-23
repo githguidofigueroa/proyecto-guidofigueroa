@@ -15,24 +15,29 @@ body {
 @media only screen and (max-width: 520px) {
   .contenedor-img-intro {
     width: 100%;
+    height: 150px;
   }
   .contenedor-img-intro img {
     width: 100%;
-    object-fit: fill;
+    height: 100%;
+    object-fit: cover;
   }
 }
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
   .contenedor-img-intro img {
     width: 100%;
+    height: 300px;
     object-fit: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
   .contenedor-img-intro {
     width: 100%;
+    height: 500px;
   }
   .contenedor-img-intro img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 }
@@ -517,15 +522,6 @@ label {
     width: 250px;
     height: 250px;
   }
-  .contenedor-img-intro {
-    width: 100%;
-    height: 500px;
-  }
-  .contenedor-img-intro img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
 }
 @media only screen and (max-width: 520px) {
   .titulo-nosotros {
@@ -686,15 +682,6 @@ label {
   .articulo-trayectoria .imagen-laempresa:hover,
   .articulo-trayectoria .imagen-trayectoria:hover {
     transform: rotate(360deg) scale(1.2);
-  }
-  .contenedor-img-intro {
-    width: 100%;
-    height: 500px;
-  }
-  .contenedor-img-intro img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -1028,20 +1015,8 @@ label {
   .articulo-productos-cervezas p {
     margin: 10px 0;
   }
-  .contenedor-img-intro {
-    width: 100%;
-    height: 600px;
-  }
-  .contenedor-img-intro img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
 }
 @media only screen and (max-width: 520px) {
-  .contenedor-img-intro {
-    width: 100%;
-  }
   .contenedor_titulo-servicios {
     text-align: center;
     margin: 20px 0;
@@ -1095,10 +1070,6 @@ label {
     margin: 10px;
   }
 }
-.contenedor-img-intro {
-  text-align: center;
-}
-
 .contenedor_titulo-servicios {
   text-align: center;
   margin: 20px 0;
@@ -1152,9 +1123,6 @@ label {
 }
 
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
-  .contenedor-img-intro {
-    width: 100%;
-  }
   .contenedor_titulo-servicios {
     text-align: center;
     margin: 20px 0;
@@ -1213,10 +1181,6 @@ label {
     margin: 10px;
   }
 }
-.contenedor-img-intro {
-  text-align: center;
-}
-
 .contenedor_titulo-servicios {
   text-align: center;
   margin: 20px 0;
@@ -1415,16 +1379,6 @@ label {
   padding: 10px;
 }
 
-.contenedor-img-intro {
-  width: 100%;
-  height: 500px;
-}
-.contenedor-img-intro img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 @media only screen and (max-width: 520px) {
   .contactos-empresa {
     text-align: center;
@@ -1470,14 +1424,6 @@ label {
   }
   .input-container {
     margin-top: 30px;
-  }
-  .contenedor-img-intro {
-    width: 100%;
-    height: 80px;
-  }
-  .contenedor-img-intro img {
-    width: 100%;
-    height: 100%;
   }
   .caja-boton {
     display: flex;
@@ -1726,15 +1672,6 @@ label {
   .contactos-empresa h4 {
     font-size: 1.3rem;
     color: goldenrod;
-  }
-  .contenedor-img-intro {
-    width: 100%;
-    height: 500px;
-  }
-  .contenedor-img-intro img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 }
 
