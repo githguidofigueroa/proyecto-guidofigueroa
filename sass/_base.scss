@@ -13,11 +13,11 @@ body {
 /* Imagen divisoria nav bar y titulo */
 @media only screen and (max-width: 520px) {
 
-    .contenedor-img-vasos {
+    .contenedor-img-intro {
         width: 100%;
     }
 
-    .contenedor-img-vasos img {
+    .contenedor-img-intro img {
         width: 100%;
         object-fit: fill;
     }
@@ -25,7 +25,7 @@ body {
 
 @media only screen and (min-width:521px) and (max-width:1023px) {
 
-    .contenedor-img-vasos img {
+    .contenedor-img-intro img {
         width: 100%;
         object-fit: cover;
     }
@@ -33,11 +33,11 @@ body {
 
 @media only screen and (min-width:1024px) {
 
-    .contenedor-img-vasos {
+    .contenedor-img-intro {
         width: 100%;
     }
 
-    .contenedor-img-vasos img {
+    .contenedor-img-intro img {
         width: 100%;
         object-fit: cover;
     }

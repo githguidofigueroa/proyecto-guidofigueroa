@@ -13,25 +13,25 @@ body {
 
 /* Imagen divisoria nav bar y titulo */
 @media only screen and (max-width: 520px) {
-  .contenedor-img-vasos {
+  .contenedor-img-intro {
     width: 100%;
   }
-  .contenedor-img-vasos img {
+  .contenedor-img-intro img {
     width: 100%;
     object-fit: fill;
   }
 }
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
-  .contenedor-img-vasos img {
+  .contenedor-img-intro img {
     width: 100%;
     object-fit: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
-  .contenedor-img-vasos {
+  .contenedor-img-intro {
     width: 100%;
   }
-  .contenedor-img-vasos img {
+  .contenedor-img-intro img {
     width: 100%;
     object-fit: cover;
   }
@@ -517,11 +517,11 @@ label {
     width: 250px;
     height: 250px;
   }
-  .contenedor-img-vasos {
+  .contenedor-img-intro {
     width: 100%;
     height: 500px;
   }
-  .contenedor-img-vasos img {
+  .contenedor-img-intro img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -687,11 +687,11 @@ label {
   .articulo-trayectoria .imagen-trayectoria:hover {
     transform: rotate(360deg) scale(1.2);
   }
-  .contenedor-img-vasos {
+  .contenedor-img-intro {
     width: 100%;
     height: 500px;
   }
-  .contenedor-img-vasos img {
+  .contenedor-img-intro img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -1028,18 +1028,18 @@ label {
   .articulo-productos-cervezas p {
     margin: 10px 0;
   }
-  .contenedor-img-vasos {
+  .contenedor-img-intro {
     width: 100%;
     height: 600px;
   }
-  .contenedor-img-vasos img {
+  .contenedor-img-intro img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 }
 @media only screen and (max-width: 520px) {
-  .contenedor-img-vasos {
+  .contenedor-img-intro {
     width: 100%;
   }
   .contenedor_titulo-servicios {
@@ -1095,7 +1095,7 @@ label {
     margin: 10px;
   }
 }
-.contenedor-img-vasos {
+.contenedor-img-intro {
   text-align: center;
 }
 
@@ -1152,7 +1152,7 @@ label {
 }
 
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
-  .contenedor-img-vasos {
+  .contenedor-img-intro {
     width: 100%;
   }
   .contenedor_titulo-servicios {
@@ -1213,7 +1213,7 @@ label {
     margin: 10px;
   }
 }
-.contenedor-img-vasos {
+.contenedor-img-intro {
   text-align: center;
 }
 
@@ -1415,11 +1415,11 @@ label {
   padding: 10px;
 }
 
-.contenedor-img-vasos {
+.contenedor-img-intro {
   width: 100%;
   height: 500px;
 }
-.contenedor-img-vasos img {
+.contenedor-img-intro img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1471,11 +1471,11 @@ label {
   .input-container {
     margin-top: 30px;
   }
-  .contenedor-img-vasos {
+  .contenedor-img-intro {
     width: 100%;
     height: 80px;
   }
-  .contenedor-img-vasos img {
+  .contenedor-img-intro img {
     width: 100%;
     height: 100%;
   }
@@ -1727,11 +1727,11 @@ label {
     font-size: 1.3rem;
     color: goldenrod;
   }
-  .contenedor-img-vasos {
+  .contenedor-img-intro {
     width: 100%;
     height: 500px;
   }
-  .contenedor-img-vasos img {
+  .contenedor-img-intro img {
     width: 100%;
     height: 100%;
     object-fit: cover;
