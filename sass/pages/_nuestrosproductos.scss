@@ -1,10 +1,9 @@
 @media only screen and (max-width: 520px) {
     .titulo-nuestros-productos {
         text-align: center;
-    }
-
-    .subtitulo-nuestras-cervezas {
-        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 30px;
+        font-weight: $letra-negrita;
     }
 
     .introduccion-productos {
@@ -53,18 +52,11 @@
         margin: 10px;
     }
 
-    .titulo-nuestros-productos {
-        text-align: center;
-        margin-top: 30px;
-        font-weight: $letra-negrita;
-        font-size: 1.7rem;
-    }
-
     .subtitulo-nuestras-cervezas {
         text-align: center;
         margin-top: 60px;
         font-weight: $letra-negrita;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .introduccion-productos {

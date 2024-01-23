@@ -47,11 +47,7 @@
         padding: 10px;
     }
 
-    .titulo-servicios {
-        text-align: center;
-    }
-
-    .titulo-servicios {
+    h3.titulo-servicios {
         font-size: 1.5rem;
         font-weight: $letra-negrita;
     }
@@ -64,11 +60,6 @@
     .parrafo-tarjeta {
         margin: 10px;
     }
-}
-
-.contenedor_titulo-servicios {
-    text-align: center;
-    margin: 20px 0;
 }
 
 .contenedor-introduccion {
@@ -113,10 +104,6 @@
 .contenedor-titulo-tarjeta {
     background-color: #f8f8f8;
     padding: 10px;
-}
-
-.titulo-servicios {
-    text-align: center;
 }
 
 @media only screen and (min-width:521px) and (max-width:1023px) {

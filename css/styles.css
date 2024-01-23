@@ -366,8 +366,11 @@ label {
     flex-wrap: wrap;
     gap: 25px;
   }
+  .caja-titulo-intro {
+    width: 100vw;
+  }
   .titulo-intro {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
     padding: 30px;
@@ -529,14 +532,14 @@ label {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   .subtitulo-laempresa {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
   }
   .descripcion-empresa {
@@ -695,9 +698,9 @@ label {
 @media only screen and (max-width: 520px) {
   .titulo-nuestros-productos {
     text-align: center;
-  }
-  .subtitulo-nuestras-cervezas {
-    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-weight: bold;
   }
   .introduccion-productos {
     display: grid;
@@ -738,17 +741,11 @@ label {
   .articulo-productos-cervezas p {
     margin: 10px;
   }
-  .titulo-nuestros-productos {
-    text-align: center;
-    margin-top: 30px;
-    font-weight: bold;
-    font-size: 1.7rem;
-  }
   .subtitulo-nuestras-cervezas {
     text-align: center;
     margin-top: 60px;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .introduccion-productos {
     display: grid;
@@ -1061,10 +1058,7 @@ label {
     background-color: #f8f8f8;
     padding: 10px;
   }
-  .titulo-servicios {
-    text-align: center;
-  }
-  .titulo-servicios {
+  h3.titulo-servicios {
     font-size: 1.5rem;
     font-weight: bold;
   }
@@ -1076,11 +1070,6 @@ label {
     margin: 10px;
   }
 }
-.contenedor_titulo-servicios {
-  text-align: center;
-  margin: 20px 0;
-}
-
 .contenedor-introduccion {
   display: grid;
   grid-template-columns: 1fr;
@@ -1122,10 +1111,6 @@ label {
 .contenedor-titulo-tarjeta {
   background-color: #f8f8f8;
   padding: 10px;
-}
-
-.titulo-servicios {
-  text-align: center;
 }
 
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
@@ -1417,7 +1402,7 @@ label {
   .titulo-contacto {
     text-align: center;
     margin-top: 30px;
-    font-size: 1, 5rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   .subtitulo-contacto {
