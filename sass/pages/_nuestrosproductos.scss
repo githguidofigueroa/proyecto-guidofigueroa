@@ -265,9 +265,6 @@
 }
 
 @media only screen and (min-width:1024px) {
-    .titulo-nuestros-productos {
-        text-align: center;
-    }
 
     .subtitulo-nuestras-cervezas {
         text-align: center;
@@ -334,6 +331,7 @@
     .titulo-nuestros-productos {
         text-align: center;
         margin-top: 30px;
+        margin-bottom: 30px;
         font-weight: $letra-negrita;
         font-size: 2.2rem;
     }
