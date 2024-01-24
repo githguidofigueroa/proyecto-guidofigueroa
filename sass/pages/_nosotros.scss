@@ -132,7 +132,7 @@
         text-align: center;
         margin-top: 50px;
         margin-bottom: 30px;
-        font-size: 1, 5rem;
+        font-size: 1.5rem;
         font-weight: $letra-negrita;
     }
 
@@ -163,19 +163,11 @@
         .imagen-laempresa,
         .imagen-trayectoria {
             transition: transform 0.5s, scale 0.5s;
-            transform-origin: center;
-            /* Establecer el origen de la transformación en el centro */
         }
 
         .imagen-laempresa:hover,
         .imagen-trayectoria:hover {
-            transform: translate(50%, 50%) rotate(360deg) scale(1);
-            /* La propiedad translate(-50%, -50%) centra la imagen en la pantalla */
-            bottom: 50vw;
-            right: 50%;
-            left: 50%;
-            top: 50vw;
-
+            transform: rotate(360deg) scale(1);
         }
 
     }

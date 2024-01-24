@@ -11,7 +11,7 @@
         h4 {
             font-size: 3vw;
             font-weight: $letra-negrita;
-            color: $color-destacado;
+            color: $color-clasico;
         }
     }
 
@@ -222,21 +222,20 @@
 
         h4 {
             font-size: 1vw;
-            color: $color-destacado
+            color: $color-clasico
         }
     }
 }
 
 @media only screen and (min-width:1024px) {
 
-
-
     .contenedor-formulario-mapa {
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
-        ;
-    }
+        justify-content: center;
+            }
 
     .imagen-maltaylupulo img {
         max-width: 100%;
@@ -251,9 +250,11 @@
 
     .subtitulo-contacto {
         font-size: 1.2rem;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 5px;
     }
-
+    
     .seccion-formulario {
         width: 100%;
         max-width: 500px;
@@ -295,7 +296,9 @@
     }
 
     .mapa-google {
-        margin-top: 20px;
+        width: 700px;
+        height: 350px;
+        margin-top: 40px;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -308,12 +311,6 @@
         border: none;
     }
 
-    /* Mapa */
-    .mapa-google {
-        width: 700px;
-        height: 700px;
-    }
-
     /* Tìtulo y Subtìtulo*/
     .titulo-contacto {
         text-align: center;
@@ -321,10 +318,6 @@
         font-size: 2rem;
     }
 
-    .subtitulo-contacto {
-        text-align: center;
-        margin-top: 15px;
-    }
 
     .mapa-contacto {
         display: flex;
@@ -334,10 +327,6 @@
         justify-items: center;
     }
 
-    .contacto-telefono h4 {
-        text-align: center;
-    }
-
     .contactos-empresa {
         width: 50%;
         display: flex;
@@ -345,13 +334,18 @@
         text-align: center;
         border: solid 2px black;
         border-radius: 5px;
-        background-color: black;
+        background-color: $color-clasico;
         padding: 3px;
 
         h4 {
             font-size: 1.3rem;
-            color: $color-destacado
+            color: black;
+            margin-top: 15px;
         }
     }
 
+    .contacto-telefono {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
 }
