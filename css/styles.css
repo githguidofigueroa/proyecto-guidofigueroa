@@ -1036,7 +1036,12 @@ label {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     text-align: center;
+    padding: 10px;
     margin: 20px 0;
+  }
+  .contenedor-tarjetas img {
+    width: 100%;
+    margin-top: 20px;
   }
   .tarjeta-servicio {
     border: 1px solid #ddd;
@@ -1074,19 +1079,6 @@ label {
 .introduccion-servicios img {
   width: 100%;
   height: auto;
-}
-
-.contenedor-tarjetas {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  text-align: center;
-  padding: 10px;
-  margin: 20px 0;
-}
-.contenedor-tarjetas img {
-  width: 100%;
-  margin-top: 20px;
 }
 
 .tarjeta-servicio {
