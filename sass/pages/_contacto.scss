@@ -107,7 +107,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        ;
     }
 
     .imagen-maltaylupulo img {
@@ -127,8 +126,7 @@
     }
 
     .seccion-formulario {
-        width: 100%;
-        max-width: 500px;
+        width: 50%;
     }
 
     .input-container {
@@ -167,6 +165,7 @@
     }
 
     .mapa-google {
+        width: 100px;
         margin-top: 20px;
         display: flex;
         justify-content: center;
@@ -182,7 +181,7 @@
 
     /* Mapa */
     .mapa-google {
-        width: 30vw;
+        width: 50vw;
         height: 60vw;
     }
 
@@ -220,8 +219,12 @@
         background-color: black;
         padding: 3px;
 
+        .contacto-telefono {
+            font-size: 0.9rem;
+        }
+
         h4 {
-            font-size: 1vw;
+            font-size: 0.7rem;
             color: $color-clasico
         }
     }

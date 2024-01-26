@@ -13,7 +13,7 @@
         text-align: center;
 
         p {
-            font-size: 1.1rem;
+            font-size: 0.8rem;
             margin-left: 10px;
             margin-right: 10px;
         }
@@ -67,7 +67,7 @@
         margin-top: 30px;
 
         P {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
     }
 
@@ -77,11 +77,12 @@
     }
 
     .articulo-productos-cervezas {
+
         display: flex;
         flex-direction: column;
         gap: 10px;
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
         text-align: center;
         border: 1px solid grey;
         border-radius: 8px;
@@ -104,9 +105,9 @@
         padding: 10px;
 
         p {
-            width: 50vw;
+            width: 80vw;
             padding: 5px;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         }
 
         img {

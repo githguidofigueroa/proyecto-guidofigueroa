@@ -52,6 +52,9 @@ body {
   footer ul {
     text-align: center;
   }
+  .footer-index {
+    margin-bottom: 3%;
+  }
   .lista-footer {
     flex-direction: column;
     display: flex;
@@ -65,9 +68,6 @@ body {
     text-align: center;
     list-style: none;
     font-size: 13px;
-  }
-  .footer-index {
-    margin-bottom: 3%;
   }
   a {
     text-decoration: none;
@@ -85,12 +85,6 @@ body {
   }
 }
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
-  .lista-footer {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0, 5%;
-    padding: 1%;
-  }
   footer {
     list-style: none;
     background-color: black;
@@ -100,37 +94,38 @@ body {
   }
   footer ul {
     text-align: center;
-  }
-  .items-footer {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
   }
   .footer-index {
     margin-bottom: 3%;
   }
-  .footer-index a {
-    text-decoration: none;
-    color: goldenrod;
-  }
-  .texto-final-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
-  .texto-final-footer h6 {
-    padding: 5px;
-  }
-}
-@media only screen and (min-width: 1024px) {
   .lista-footer {
     display: flex;
     justify-content: space-around;
     margin-top: 0, 5%;
     padding: 1%;
   }
+  .items-footer {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: goldenrod;
+  }
+}
+.texto-final-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.texto-final-footer h6 {
+  padding: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
   footer {
     list-style: none;
     background-color: black;
@@ -141,25 +136,33 @@ body {
   footer ul {
     text-align: center;
   }
+  footer .lista-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0, 5%;
+    padding: 1%;
+  }
   .items-footer {
     list-style: none;
   }
-  .footer-index a {
+  .items-footer a {
     text-decoration: none;
     color: goldenrod;
   }
-  .texto-final-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 40px;
-  }
-  .texto-final-footer h6 {
-    padding: 5px;
-  }
 }
+.texto-final-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.texto-final-footer h6 {
+  padding: 5px;
+}
+
 @media only screen and (max-width: 520px) {
   .container-titulos {
     display: flex;
@@ -424,8 +427,7 @@ label {
     padding: 10px;
   }
   .titulo-intro {
-    padding-top: 50px;
-    padding-bottom: 10 0px;
+    padding: 50px;
     font-size: 30px;
     text-align: center;
     color: black;
@@ -608,7 +610,7 @@ label {
     margin-top: 30px;
     text-align: center;
     padding: 30px;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .articulo-empresa,
   .articulo-trayectoria {
@@ -702,7 +704,7 @@ label {
     text-align: center;
   }
   .introduccion-productos p {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -748,7 +750,7 @@ label {
     margin-top: 30px;
   }
   .introduccion-productos P {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   img {
     width: 100%;
@@ -758,8 +760,8 @@ label {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
     border: 1px solid grey;
     border-radius: 8px;
@@ -780,9 +782,9 @@ label {
     padding: 10px;
   }
   .contenedor-productos-cervezas p {
-    width: 50vw;
+    width: 80vw;
     padding: 5px;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
   .contenedor-productos-cervezas img {
     width: 20%;
@@ -1017,6 +1019,10 @@ label {
     text-align: center;
     margin: 20px 0;
   }
+  .contenedor-descripcion {
+    width: 8px;
+    height: 8px;
+  }
   .contenedor-introduccion {
     display: grid;
     grid-template-columns: 1fr;
@@ -1060,9 +1066,8 @@ label {
     font-size: 1.5rem;
     font-weight: bold;
   }
-  .parrafo-introduccion {
+  p.parrafo-introduccion {
     font-size: 0.8rem;
-    padding: 30px;
   }
   .parrafo-tarjeta {
     margin: 10px;
@@ -1117,12 +1122,17 @@ label {
   .lista-footer li {
     list-style: none;
   }
-  .contenedor-tarjetas {
+  section.contenedor-tarjetas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 10px;
     text-align: center;
-    margin: 20px 0;
+    margin: 10px;
+  }
+  section.contenedor-tarjetas img {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
   }
   .tarjeta-servicio {
     border: 1px solid #ddd;
@@ -1175,19 +1185,6 @@ label {
   height: auto;
 }
 
-.contenedor-tarjetas {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  text-align: center;
-  padding: 10px;
-  margin: 20px 0;
-}
-.contenedor-tarjetas img {
-  width: 100%;
-  margin-top: 20px;
-}
-
 .tarjeta-servicio {
   display: flex;
   font-size: 0.7rem;
@@ -1200,11 +1197,14 @@ label {
   width: 100%;
   height: 200px;
 }
+.tarjeta-servicio .contenedor-descripcion {
+  height: 95%;
+}
 .tarjeta-servicio img {
   width: 100%;
 }
 .tarjeta-servicio p {
-  height: 50%;
+  height: 95%;
   font-size: 0.9rem;
 }
 
@@ -1468,8 +1468,7 @@ section {
     margin-bottom: 20px;
   }
   .seccion-formulario {
-    width: 100%;
-    max-width: 500px;
+    width: 50%;
   }
   .input-container {
     margin-bottom: 15px;
@@ -1502,6 +1501,7 @@ section {
     background-color: #45a049;
   }
   .mapa-google {
+    width: 100px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -1515,7 +1515,7 @@ section {
   }
   /* Mapa */
   .mapa-google {
-    width: 30vw;
+    width: 50vw;
     height: 60vw;
   }
   /* Tìtulo y Subtìtulo*/
@@ -1548,8 +1548,11 @@ section {
     background-color: black;
     padding: 3px;
   }
+  .contactos-empresa .contacto-telefono {
+    font-size: 0.9rem;
+  }
   .contactos-empresa h4 {
-    font-size: 1vw;
+    font-size: 0.7rem;
     color: white;
   }
 }
