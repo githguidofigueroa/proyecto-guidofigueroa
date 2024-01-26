@@ -51,6 +51,7 @@
     }
 
     .contactos-empresa {
+        margin-top: 40px;
         text-align: center;
         border: solid 2px black;
         border-radius: 5px;
@@ -58,7 +59,7 @@
         padding: 3px;
 
         h4 {
-            font-size: 3vw;
+            font-size: 0.9rem;
             font-weight: $letra-negrita;
             color: $color-clasico;
         }
@@ -72,18 +73,25 @@
         gap: 30px;
     }
 
-    .contacto-telefono,
-    .contacto-correo-empresa {
-        font-size: 0.8rem;
-        font-weight: $letra-negrita;
-    }
-
     footer {
         margin-top: 30px;
     }
 
     footer li {
         list-style: none;
+    }
+    
+    button {
+        background-color: #4caf50;
+        color: $color-clasico;
+        margin-top: 1px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    button:hover {
+        background-color: #45a049;
     }
 }
 
@@ -225,7 +233,7 @@
         text-align: center;
         margin-top: 5px;
     }
-    
+
     .seccion-formulario {
         width: 100%;
         max-width: 500px;
