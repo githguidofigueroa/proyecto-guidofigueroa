@@ -1,5 +1,4 @@
 @media only screen and (max-width: 520px) {
-
     .titulo-nosotros {
         text-align: center;
         margin-top: 30px;
@@ -64,10 +63,7 @@
     }
 }
 
-
-
 @media only screen and (min-width:521px) and (max-width:1023px) {
-
     .titulo-nosotros {
         text-align: center;
         margin-top: 50px;
@@ -75,7 +71,6 @@
         font-size: 2.5rem;
         font-weight: $letra-negrita;
     }
-
 
     .subtitulo-laempresa {
         text-align: center;
@@ -91,7 +86,6 @@
         padding: 30px;
         font-size: 0.6rem;
     }
-
 
     .articulo-empresa,
     .articulo-trayectoria {
@@ -120,7 +114,6 @@
 }
 
 @media only screen and (min-width:1024px) {
-
     .titulo-nosotros {
         text-align: center;
         margin-top: 50px;
@@ -170,7 +163,5 @@
         .imagen-trayectoria:hover {
             transform: rotate(360deg) scale(1);
         }
-
     }
-
 }
