@@ -292,12 +292,6 @@ body {
   }
 }
 @media only screen and (max-width: 520px) {
-  .section-inicio {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
-  }
   .caja-titulo-intro {
     width: 100vw;
   }
@@ -307,15 +301,17 @@ body {
     font-weight: bold;
     padding: 30px;
   }
+  .section-inicio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
   .section-inicio article {
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
-  }
-  .input-container {
-    margin: 10px;
-    padding: 10px;
   }
   .caja-cerveza {
     display: flex;
@@ -339,6 +335,13 @@ body {
   }
 }
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
+  .titulo-intro {
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+  }
   .section-inicio {
     display: flex;
     justify-content: center;
@@ -351,25 +354,6 @@ body {
     justify-content: center;
     text-align: center;
   }
-  .input-container {
-    margin: 10px;
-    padding: 10px;
-  }
-  .titulo-intro {
-    padding: 50px;
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    font-weight: bolder;
-  }
-  .titulos-cervezas {
-    font-size: 20px;
-    font-weight: bolder;
-  }
-  .parrafo-cervezas {
-    margin: 5px;
-    padding: 5px;
-  }
   .caja-cerveza {
     display: flex;
     flex-direction: column;
@@ -381,8 +365,9 @@ body {
     transition: transform 0.1s;
     font-size: 0.8rem;
   }
-  .caja-cerveza:hover {
-    transform: scale(1.02);
+  .titulos-cervezas {
+    font-size: 20px;
+    font-weight: bolder;
   }
   .caja-cerveza-contenedor {
     display: flex;
@@ -396,6 +381,9 @@ body {
   .caja-cerveza-imagen img {
     width: 130px;
     height: 130px;
+  }
+  .caja-cerveza:hover {
+    transform: scale(1.02);
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -411,10 +399,6 @@ body {
     justify-content: center;
     text-align: center;
   }
-  .input-container {
-    margin: 10px;
-    padding: 10px;
-  }
   .titulo-intro {
     padding-top: 50px;
     padding-bottom: 120px;
@@ -422,14 +406,6 @@ body {
     text-align: center;
     color: black;
     font-weight: bolder;
-  }
-  .titulos-cervezas {
-    font-size: 25px;
-    font-weight: bolder;
-  }
-  .parrafo-cervezas {
-    margin: 20px;
-    padding: 20px;
   }
   .caja-cerveza {
     display: flex;
@@ -445,6 +421,14 @@ body {
   .caja-cerveza:hover {
     transform: scale(1.02);
   }
+  .caja-cerveza-imagen img {
+    width: 250px;
+    height: 250px;
+  }
+  .titulos-cervezas {
+    font-size: 25px;
+    font-weight: bolder;
+  }
   .caja-cerveza-contenedor {
     display: flex;
     justify-content: column;
@@ -452,10 +436,6 @@ body {
     align-items: center;
     width: 70%;
     gap: 60px;
-  }
-  .caja-cerveza-imagen img {
-    width: 250px;
-    height: 250px;
   }
 }
 @media only screen and (max-width: 520px) {
