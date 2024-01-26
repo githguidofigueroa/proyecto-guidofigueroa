@@ -1196,33 +1196,10 @@ section {
 }
 
 @media only screen and (max-width: 520px) {
-  .contactos-empresa {
-    text-align: center;
-    border: solid 2px black;
-    border-radius: 5px;
-    background-color: black;
-    padding: 3px;
-  }
-  .contactos-empresa h4 {
-    font-size: 3vw;
-    font-weight: bold;
-    color: white;
-  }
-  /* Mapa */
-  .mapa-google {
-    width: 100%;
-    height: 70%;
+  .contenedor-titulos-contacto {
+    flex-direction: column;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
   }
-  iframe {
-    width: 100%;
-    height: 300px;
-    border: none;
-  }
-  /* Tìtulo y Subtìtulo*/
   .titulo-contacto {
     text-align: center;
     margin-top: 30px;
@@ -1233,18 +1210,6 @@ section {
     text-align: center;
     margin-top: 30px;
     font-size: 0.8rem;
-  }
-  .contenedor-titulos-contacto {
-    display: flex;
-    flex-direction: column;
-  }
-  .input-container {
-    margin-top: 30px;
-  }
-  .caja-boton {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .input-container {
     display: flex;
@@ -1261,8 +1226,30 @@ section {
     text-align: center;
     margin-bottom: 100px;
   }
-  footer li {
-    list-style: none;
+  .mapa-google {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+  .contactos-empresa {
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 3px;
+  }
+  .contactos-empresa h4 {
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
   }
   .contenedor-contactos {
     display: flex;
@@ -1279,25 +1266,28 @@ section {
   footer {
     margin-top: 30px;
   }
+  footer li {
+    list-style: none;
+  }
 }
 @media only screen and (min-width: 521px) and (max-width: 1023px) {
-  .contenedor-formulario-mapa {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .imagen-maltaylupulo img {
-    max-width: 100%;
-    height: auto;
-  }
   .titulo-contacto {
     font-weight: bold;
     font-size: 2rem;
     margin: 10px 0;
+    text-align: center;
+    margin-top: 50px;
   }
   .subtitulo-contacto {
     font-size: 1.2rem;
     margin-bottom: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .contenedor-formulario-mapa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   .seccion-formulario {
     width: 50%;
@@ -1332,8 +1322,16 @@ section {
   button:hover {
     background-color: #45a049;
   }
+  .mapa-contacto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
   .mapa-google {
-    width: 100px;
+    width: 50vw;
+    height: 60vw;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -1344,31 +1342,6 @@ section {
     width: 100%;
     height: 300px;
     border: none;
-  }
-  /* Mapa */
-  .mapa-google {
-    width: 50vw;
-    height: 60vw;
-  }
-  /* Tìtulo y Subtìtulo*/
-  .titulo-contacto {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 2rem;
-  }
-  .subtitulo-contacto {
-    text-align: center;
-    margin-top: 15px;
-  }
-  .mapa-contacto {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-  }
-  .contacto-telefono h4 {
-    text-align: center;
   }
   .contactos-empresa {
     width: 50%;
@@ -1382,6 +1355,9 @@ section {
   }
   .contactos-empresa .contacto-telefono {
     font-size: 0.9rem;
+  }
+  .contactos-empresa .contacto-telefono h4 {
+    text-align: center;
   }
   .contactos-empresa h4 {
     font-size: 0.7rem;
@@ -1404,6 +1380,8 @@ section {
     font-weight: bold;
     font-size: 2rem;
     margin: 10px 0;
+    text-align: center;
+    margin-top: 50px;
   }
   .subtitulo-contacto {
     font-size: 1.2rem;
@@ -1445,6 +1423,13 @@ section {
   button:hover {
     background-color: #45a049;
   }
+  .mapa-contacto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
   .mapa-google {
     width: 700px;
     height: 350px;
@@ -1458,19 +1443,6 @@ section {
     width: 100%;
     height: 300px;
     border: none;
-  }
-  /* Tìtulo y Subtìtulo*/
-  .titulo-contacto {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 2rem;
-  }
-  .mapa-contacto {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
   }
   .contactos-empresa {
     width: 50%;
